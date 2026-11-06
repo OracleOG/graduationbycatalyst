@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Catalyst JPG — Graduation Photoshoots, KASU & Kaduna</title>
+<meta name="description" content="Graduation photoshoots for KASU students and graduants around Kaduna. Solo, duo and group sessions from ₦10,000. Gown and props available. Book on WhatsApp.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;500;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--blue:#2438F0;--sun:#FFC928;--bg:#F7F7F4;--ink:#12142A;--mute:#5B5F78;--card:#fff;--line:#DDDFEA;color-scheme:light;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#10121F;--ink:#F1F2FA;--mute:#A3A7C0;--card:#1A1D30;--line:#2B2F4A;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#10121F;--ink:#F1F2FA;--mute:#A3A7C0;--card:#1A1D30;--line:#2B2F4A;color-scheme:dark}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Bricolage Grotesque",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.55;font-size:17px}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--sun);outline-offset:3px}
+.wrap{max-width:1080px;margin:0 auto;padding:0 22px}
+.btn{display:inline-block;background:var(--sun);color:#12142A;font:700 1rem/1 inherit;padding:15px 24px;border-radius:999px;border:0;text-decoration:none;cursor:pointer;transition:transform .15s}
+.btn:hover{transform:translateY(-2px)}
+.btn.ghost{background:transparent;color:#fff;border:2px solid rgba(255,255,255,.55)}
+/* hero */
+.hero{background:var(--blue);color:#fff;overflow:hidden}
+.bar{display:flex;justify-content:space-between;align-items:center;padding:20px 0}
+.logo{font-weight:800;font-size:1.25rem;letter-spacing:-.02em;text-decoration:none}
+.bar .btn{padding:11px 18px;font-size:.92rem}
+.hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:30px;align-items:center;padding:34px 0 70px}
+h1{font-size:clamp(2.6rem,7vw,5.2rem);line-height:.96;letter-spacing:-.035em;margin:0 0 20px;font-weight:800}
+.hero p{max-width:30em;font-size:1.15rem;opacity:.92;margin:0 0 28px}
+.cta{display:flex;gap:12px;flex-wrap:wrap}
+.stack{position:relative;height:440px}
+.frame{position:absolute;width:56%;aspect-ratio:4/5;border-radius:6px;padding:8px 8px 30px;background:#fff;box-shadow:0 18px 40px rgba(5,10,80,.45);animation:land .9s cubic-bezier(.2,.9,.3,1) both}
+.frame:nth-child(1){left:0;top:30px;--r:-8deg;transform:rotate(-8deg)}
+.frame:nth-child(2){right:0;top:0;--r:6deg;transform:rotate(6deg);animation-delay:.15s}
+.frame:nth-child(3){left:22%;bottom:0;--r:-2deg;transform:rotate(-2deg);animation-delay:.3s}
+@keyframes land{from{opacity:0;transform:translateY(-60px) rotate(calc(var(--r) * 3))}}
+.ph{width:100%;height:100%;display:grid;place-items:center;position:relative;color:#12142A;border-radius:2px}
+.ph svg{width:46%;opacity:.85}
+.ph i{position:absolute;left:8px;bottom:6px;font:500 .72rem/1 ui-monospace,Menlo,Consolas,monospace;font-style:normal;opacity:.7}
+.g1{background:linear-gradient(160deg,#FFC928,#FF8A5B)}.g2{background:linear-gradient(160deg,#9FE8D0,#4DA3FF)}.g3{background:linear-gradient(160deg,#FFD9EC,#B79CFF)}.g4{background:linear-gradient(160deg,#FFF0A8,#7ED6A5)}
+.frame .ph{height:100%}
+.frame span{position:absolute;left:0;right:0;bottom:7px;text-align:center;font:500 .72rem/1 ui-monospace,Menlo,monospace;color:#12142A}
+/* sections */
+section{padding:72px 0}
+h2{font-size:clamp(1.9rem,4.5vw,3rem);line-height:1.05;letter-spacing:-.03em;margin:0 0 10px;font-weight:800}
+.lead{color:var(--mute);max-width:34em;margin:0 0 36px}
+.pk{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:28px}
+.card h3{margin:0;font-size:1.35rem;letter-spacing:-.02em}
+.price{font-size:3rem;font-weight:800;letter-spacing:-.04em;margin:6px 0 14px;line-height:1}
+ul{list-style:none;margin:0;padding:0}
+li{padding:7px 0 7px 28px;position:relative;border-top:1px solid var(--line)}
+li::before{content:"✓";position:absolute;left:0;font-weight:800;color:var(--blue)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) li::before{color:var(--sun)}}
+:root[data-theme="dark"] li::before{color:var(--sun)}
+.wide{grid-column:1/-1;display:grid;grid-template-columns:1fr 1fr;gap:28px;border-radius:18px;background:var(--blue);color:#fff;border:0}
+.wide li{border-color:rgba(255,255,255,.25)}.wide li::before{color:var(--sun)!important}
+.wide .price{font-size:2rem;margin-bottom:6px}
+.extras{margin-top:18px;display:flex;gap:14px;flex-wrap:wrap}
+.chip{background:var(--sun);color:#12142A;border-radius:999px;padding:10px 18px;font-weight:700}
+/* gallery */
+.gal{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.gal button{all:unset;cursor:zoom-in;aspect-ratio:3/4;border-radius:12px;overflow:hidden;display:block}
+.gal button:focus-visible{outline:3px solid var(--sun);outline-offset:3px}
+.gal .ph{border-radius:0}
+.gal button:nth-child(2),.gal button:nth-child(5){aspect-ratio:3/4.6}
+dialog{border:0;border-radius:16px;padding:0;max-width:min(420px,92vw);width:100%;background:var(--card);color:var(--ink)}
+dialog::backdrop{background:rgba(8,10,30,.75)}
+dialog .ph{aspect-ratio:4/5;height:auto;border-radius:0}
+dialog .row{display:flex;justify-content:space-between;align-items:center;padding:14px 18px}
+dialog button{background:none;border:1px solid var(--line);color:var(--ink);border-radius:999px;padding:8px 16px;font:inherit;cursor:pointer}
+/* steps + form */
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;counter-reset:s;margin-bottom:56px}
+.steps li{counter-increment:s;border:0;padding:0;background:none}
+.steps li::before{content:counter(s);position:static;display:grid;place-items:center;width:38px;height:38px;border-radius:50%;background:var(--blue);color:#fff;font-weight:800;margin-bottom:10px}
+.steps b{display:block}.steps span{color:var(--mute);font-size:.95rem}
+.book{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:32px;display:grid;grid-template-columns:.8fr 1.2fr;gap:32px}
+label{display:block;font-weight:700;font-size:.92rem;margin-bottom:14px}
+input,select,textarea{display:block;width:100%;margin-top:6px;padding:13px 14px;border:1.5px solid var(--line);border-radius:10px;background:var(--bg);color:var(--ink);font:inherit}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.chk{display:flex;gap:10px;align-items:center;font-weight:500}.chk input{width:auto;margin:0}
+.note{color:var(--mute);font-size:.9rem;margin:10px 0 0}
+footer{background:var(--blue);color:#fff;padding:44px 0 56px}
+footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;align-items:center}
+footer a{margin-right:18px}
+@media (max-width:820px){
+.hero-grid,.book,.wide{grid-template-columns:1fr}.stack{height:380px}
+.pk{grid-template-columns:1fr}.gal{grid-template-columns:repeat(2,1fr)}.steps{grid-template-columns:1fr 1fr}.two{grid-template-columns:1fr}
+.book{padding:22px}}
+@media (prefers-reduced-motion:reduce){.frame{animation:none}html{scroll-behavior:auto}.btn:hover{transform:none}}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><symbol id="cap" viewBox="0 0 64 64"><path fill="currentColor" d="M32 10 2 24l30 14 22-10v14h4V26.5L62 24 32 10Z"/><path fill="currentColor" d="M14 36v9c0 4 8 9 18 9s18-5 18-9v-9L32 44 14 36Z"/></symbol></svg>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="bar">
+      <a class="logo" href="#top">catalyst_jpg</a>
+      <a class="btn" href="#book">Book a shoot</a>
+    </div>
+    <div class="hero-grid" id="top">
+      <div>
+        <h1>Your graduation, in focus.</h1>
+        <p>Graduation photoshoots for KASU students and graduants around Kaduna. Pick a package, choose your date and show up. Gown and props are on us.</p>
+        <div class="cta">
+          <a class="btn" href="#book">Book your date</a>
+          <a class="btn ghost" href="#packages">See packages</a>
+        </div>
+      </div>
+      <div class="stack" aria-hidden="true">
+        <div class="frame"><div class="ph g1"><svg><use href="#cap"/></svg></div><span>grad_001.jpg</span></div>
+        <div class="frame"><div class="ph g2"><svg><use href="#cap"/></svg></div><span>grad_002.jpg</span></div>
+        <div class="frame"><div class="ph g3"><svg><use href="#cap"/></svg></div><span>grad_003.jpg</span></div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+<section id="packages">
+  <div class="wrap">
+    <h2>Packages</h2>
+    <p class="lead">Every session is one outfit. Need more pictures? Add them at any time.</p>
+    <div class="pk">
+      <article class="card">
+        <h3>Basic</h3>
+        <div class="price">₦10,000</div>
+        <ul><li>One outfit</li><li>4 edited images</li><li>Online gallery</li></ul>
+      </article>
+      <article class="card">
+        <h3>My FRND &amp; I</h3>
+        <div class="price">₦15,000</div>
+        <ul><li>One outfit</li><li>2 edited images per person</li><li>One duo image</li></ul>
+      </article>
+      <article class="card wide">
+        <div>
+          <h3>Group session</h3>
+          <div class="price">Price varies</div>
+          <p style="margin:0;opacity:.9">Discounts apply. Message us with your group size for a quote.</p>
+        </div>
+        <ul><li>One outfit</li><li>2–3 images per person</li><li>Online gallery</li></ul>
+      </article>
+    </div>
+    <div class="extras">
+      <span class="chip">Extra images ₦3,000 each</span>
+      <span class="chip">Graduation gown and props available</span>
+    </div>
+  </div>
+</section>
+
+<section id="gallery" style="background:var(--card)">
+  <div class="wrap">
+    <h2>Recent frames</h2>
+    <p class="lead">Placeholders for now. The graduation set is on its way.</p>
+    <div class="gal">
+      <button data-n="grad_001.jpg" aria-label="Open sample photo 1"><div class="ph g1"><svg><use href="#cap"/></svg><i>grad_001.jpg</i></div></button>
+      <button data-n="grad_002.jpg" aria-label="Open sample photo 2"><div class="ph g2"><svg><use href="#cap"/></svg><i>grad_002.jpg</i></div></button>
+      <button data-n="grad_003.jpg" aria-label="Open sample photo 3"><div class="ph g3"><svg><use href="#cap"/></svg><i>grad_003.jpg</i></div></button>
+      <button data-n="grad_004.jpg" aria-label="Open sample photo 4"><div class="ph g4"><svg><use href="#cap"/></svg><i>grad_004.jpg</i></div></button>
+      <button data-n="grad_005.jpg" aria-label="Open sample photo 5"><div class="ph g2"><svg><use href="#cap"/></svg><i>grad_005.jpg</i></div></button>
+      <button data-n="grad_006.jpg" aria-label="Open sample photo 6"><div class="ph g3"><svg><use href="#cap"/></svg><i>grad_006.jpg</i></div></button>
+      <button data-n="grad_007.jpg" aria-label="Open sample photo 7"><div class="ph g1"><svg><use href="#cap"/></svg><i>grad_007.jpg</i></div></button>
+      <button data-n="grad_008.jpg" aria-label="Open sample photo 8"><div class="ph g4"><svg><use href="#cap"/></svg><i>grad_008.jpg</i></div></button>
+    </div>
+  </div>
+</section>
+
+<section id="book">
+  <div class="wrap">
+    <h2>How booking works</h2>
+    <p class="lead">No account, no waiting. Your request goes straight to our WhatsApp.</p>
+    <ul class="steps">
+      <li><b>Choose a package</b><span>Solo, duo or group.</span></li>
+      <li><b>Pick a date</b><span>We confirm it on WhatsApp.</span></li>
+      <li><b>Show up and shoot</b><span>Gown and props are ready.</span></li>
+      <li><b>Get your gallery</b><span>Edited images, online.</span></li>
+    </ul>
+    <div class="book">
+      <div>
+        <h2 style="font-size:2rem">Reserve your slot</h2>
+        <p class="lead" style="margin-bottom:12px">Fill this in and we’ll open WhatsApp with your request ready to send.</p>
+        <p class="note">Based at KASU. Also shooting graduants across Kaduna city.</p>
+      </div>
+      <div id="f">
+        <div class="two">
+          <label>Your name<input id="name" autocomplete="name" placeholder="e.g. Amina Yusuf"></label>
+          <label>Preferred date<input id="date" type="date"></label>
+        </div>
+        <div class="two">
+          <label>Package
+            <select id="pkg">
+              <option>Basic (₦10,000)</option>
+              <option>My FRND &amp; I (₦15,000)</option>
+              <option>Group session (price varies)</option>
+            </select>
+          </label>
+          <label>Where?
+            <select id="loc"><option>KASU</option><option>Kaduna city</option></select>
+          </label>
+        </div>
+        <label>Group size or notes (optional)<textarea id="notes" rows="2" placeholder="e.g. 6 of us, department photo"></textarea></label>
+        <label class="chk"><input id="gown" type="checkbox" checked> I need a graduation gown and props</label>
+        <button class="btn" id="send" type="button">Send request on WhatsApp</button>
+        <p class="note" id="msg" role="status"></p>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <strong style="font-size:1.2rem">catalyst_jpg</strong>
+    <div>
+      <a href="https://www.instagram.com/catalyst_jpg" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://wa.me/2349019522326" target="_blank" rel="noopener">WhatsApp +234 901 952 2326</a>
+    </div>
+  </div>
+</footer>
+
+<dialog id="lb">
+  <div class="ph g1" id="lbph"><svg style="width:30%"><use href="#cap"/></svg><i id="lbn">grad.jpg</i></div>
+  <div class="row"><span>Sample photo. Real shots coming soon.</span><button id="lbx">Close</button></div>
+</dialog>
+
+<script>
+(function(){
+  var lb=document.getElementById('lb'),ph=document.getElementById('lbph'),n=document.getElementById('lbn');
+  document.querySelectorAll('.gal button').forEach(function(b){
+    b.addEventListener('click',function(){
+      ph.className='ph '+b.querySelector('.ph').className.split(' ')[1];
+      n.textContent=b.dataset.n;
+      if(lb.showModal)lb.showModal();
+    });
+  });
+  document.getElementById('lbx').addEventListener('click',function(){lb.close();});
+  lb.addEventListener('click',function(e){if(e.target===lb)lb.close();});
+  var d=document.getElementById('date');
+  try{d.min=new Date().toISOString().slice(0,10);}catch(e){}
+  document.getElementById('send').addEventListener('click',function(){
+    var v=function(id){return document.getElementById(id).value.trim();};
+    var name=v('name'),date=v('date');
+    var msg=document.getElementById('msg');
+    if(!name||!date){msg.textContent='Add your name and a preferred date so we can check availability.';return;}
+    var t='Hi Catalyst JPG, I’d like to book a graduation shoot.\n'
+      +'Name: '+name+'\nPackage: '+v('pkg')+'\nDate: '+date+'\nLocation: '+v('loc')
+      +'\nGown and props: '+(document.getElementById('gown').checked?'Yes':'No')
+      +(v('notes')?'\nNotes: '+v('notes'):'');
+    msg.textContent='Opening WhatsApp. Send the message to confirm your request.';
+    window.open('https://wa.me/2349019522326?text='+encodeURIComponent(t),'_blank','noopener');
+  });
+})();
+</script>
+</body>
+</html>
