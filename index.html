@@ -5,6 +5,17 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Catalyst JPG — Graduation Photoshoots, KASU & Kaduna</title>
 <meta name="description" content="Graduation photoshoots for KASU students and graduants around Kaduna. Solo, duo and group sessions from ₦10,000. Gown and props available. Book on WhatsApp.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Catalyst JPG — Graduation Photoshoots, KASU & Kaduna">
+<meta property="og:description" content="Graduation photoshoots for KASU students and graduants around Kaduna. Book your solo, duo or group session.">
+<meta property="og:image" content="images/share-thumbnail.jpg">
+<meta property="og:image:alt" content="Catalyst JPG graduation photoshoot">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Catalyst JPG — Graduation Photoshoots, KASU & Kaduna">
+<meta name="twitter:description" content="Graduation photoshoots for KASU students and graduants around Kaduna. Book your session.">
+<meta name="twitter:image" content="images/share-thumbnail.jpg">
+<link rel="icon" type="image/png" href="images/logo%20png.png">
+<link rel="apple-touch-icon" href="images/logo%20png.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;500;700;800&display=swap" rel="stylesheet">
@@ -25,7 +36,7 @@ a{color:inherit}
 /* hero */
 .hero{background:var(--blue);color:#fff;overflow:hidden}
 .bar{display:flex;justify-content:space-between;align-items:center;padding:20px 0}
-.logo{font-weight:800;font-size:1.25rem;letter-spacing:-.02em;text-decoration:none}
+.logo{display:inline-flex;align-items:center;text-decoration:none}.brand-logo{width:48px;height:48px;display:block;object-fit:contain}
 .bar .btn{padding:11px 18px;font-size:.92rem}
 .hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:30px;align-items:center;padding:34px 0 70px}
 h1{font-size:clamp(2.6rem,7vw,5.2rem);line-height:.96;letter-spacing:-.035em;margin:0 0 20px;font-weight:800}
@@ -38,7 +49,7 @@ h1{font-size:clamp(2.6rem,7vw,5.2rem);line-height:.96;letter-spacing:-.035em;mar
 .frame:nth-child(3){left:22%;bottom:0;--r:-2deg;transform:rotate(-2deg);animation-delay:.3s}
 @keyframes land{from{opacity:0;transform:translateY(-60px) rotate(calc(var(--r) * 3))}}
 .ph{width:100%;height:100%;display:grid;place-items:center;position:relative;color:#12142A;border-radius:2px}
-.ph svg{width:46%;opacity:.85}
+.ph svg{width:46%;opacity:.85}.ph img{width:100%;height:100%;display:block;object-fit:cover}
 .ph i{position:absolute;left:8px;bottom:6px;font:500 .72rem/1 ui-monospace,Menlo,Consolas,monospace;font-style:normal;opacity:.7}
 .g1{background:linear-gradient(160deg,#FFC928,#FF8A5B)}.g2{background:linear-gradient(160deg,#9FE8D0,#4DA3FF)}.g3{background:linear-gradient(160deg,#FFD9EC,#B79CFF)}.g4{background:linear-gradient(160deg,#FFF0A8,#7ED6A5)}
 .frame .ph{height:100%}
@@ -99,7 +110,7 @@ footer a{margin-right:18px}
 <header class="hero">
   <div class="wrap">
     <div class="bar">
-      <a class="logo" href="#top">catalyst_jpg</a>
+      <a class="logo" href="#top" aria-label="Catalyst JPG home"><img class="brand-logo" src="images/logo%20png.png" alt="Catalyst JPG"></a>
       <a class="btn" href="#book">Book a shoot</a>
     </div>
     <div class="hero-grid" id="top">
@@ -112,9 +123,9 @@ footer a{margin-right:18px}
         </div>
       </div>
       <div class="stack" aria-hidden="true">
-        <div class="frame"><div class="ph g1"><svg><use href="#cap"/></svg></div><span>grad_001.jpg</span></div>
-        <div class="frame"><div class="ph g2"><svg><use href="#cap"/></svg></div><span>grad_002.jpg</span></div>
-        <div class="frame"><div class="ph g3"><svg><use href="#cap"/></svg></div><span>grad_003.jpg</span></div>
+        <div class="frame"><div class="ph g1"><img src="images/grad_001.jpg" alt="Graduation photo sample 1"></div><span>grad_001.jpg</span></div>
+        <div class="frame"><div class="ph g2"><img src="images/grad_002.jpg" alt="Graduation photo sample 2"></div><span>grad_002.jpg</span></div>
+        <div class="frame"><div class="ph g3"><img src="images/grad_003.jpg" alt="Graduation photo sample 3"></div><span>grad_003.jpg</span></div>
       </div>
     </div>
   </div>
@@ -157,14 +168,14 @@ footer a{margin-right:18px}
     <h2>Recent frames</h2>
     <p class="lead">Placeholders for now. The graduation set is on its way.</p>
     <div class="gal">
-      <button data-n="grad_001.jpg" aria-label="Open sample photo 1"><div class="ph g1"><svg><use href="#cap"/></svg><i>grad_001.jpg</i></div></button>
-      <button data-n="grad_002.jpg" aria-label="Open sample photo 2"><div class="ph g2"><svg><use href="#cap"/></svg><i>grad_002.jpg</i></div></button>
-      <button data-n="grad_003.jpg" aria-label="Open sample photo 3"><div class="ph g3"><svg><use href="#cap"/></svg><i>grad_003.jpg</i></div></button>
-      <button data-n="grad_004.jpg" aria-label="Open sample photo 4"><div class="ph g4"><svg><use href="#cap"/></svg><i>grad_004.jpg</i></div></button>
-      <button data-n="grad_005.jpg" aria-label="Open sample photo 5"><div class="ph g2"><svg><use href="#cap"/></svg><i>grad_005.jpg</i></div></button>
-      <button data-n="grad_006.jpg" aria-label="Open sample photo 6"><div class="ph g3"><svg><use href="#cap"/></svg><i>grad_006.jpg</i></div></button>
-      <button data-n="grad_007.jpg" aria-label="Open sample photo 7"><div class="ph g1"><svg><use href="#cap"/></svg><i>grad_007.jpg</i></div></button>
-      <button data-n="grad_008.jpg" aria-label="Open sample photo 8"><div class="ph g4"><svg><use href="#cap"/></svg><i>grad_008.jpg</i></div></button>
+      <button data-n="grad_001.jpg" aria-label="Open sample photo 1"><div class="ph g1"><img src="images/grad_001.jpg" alt="Graduation photo sample 1"><i>grad_001.jpg</i></div></button>
+      <button data-n="grad_002.jpg" aria-label="Open sample photo 2"><div class="ph g2"><img src="images/grad_002.jpg" alt="Graduation photo sample 2"><i>grad_002.jpg</i></div></button>
+      <button data-n="grad_003.jpg" aria-label="Open sample photo 3"><div class="ph g3"><img src="images/grad_003.jpg" alt="Graduation photo sample 3"><i>grad_003.jpg</i></div></button>
+      <button data-n="grad_004.jpg" aria-label="Open sample photo 4"><div class="ph g4"><img src="images/grad_004.jpg" alt="Graduation photo sample 4"><i>grad_004.jpg</i></div></button>
+      <button data-n="grad_005.jpg" aria-label="Open sample photo 5"><div class="ph g2"><img src="images/grad_005.jpg" alt="Graduation photo sample 5"><i>grad_005.jpg</i></div></button>
+      <button data-n="grad_006.jpg" aria-label="Open sample photo 6"><div class="ph g3"><img src="images/grad_006.jpg" alt="Graduation photo sample 6"><i>grad_006.jpg</i></div></button>
+      <button data-n="grad_007.jpg" aria-label="Open sample photo 7"><div class="ph g1"><img src="images/grad_007.jpg" alt="Graduation photo sample 7"><i>grad_007.jpg</i></div></button>
+      <button data-n="grad_008.jpg" aria-label="Open sample photo 8"><div class="ph g4"><img src="images/grad_008.jpg" alt="Graduation photo sample 8"><i>grad_008.jpg</i></div></button>
     </div>
   </div>
 </section>
@@ -214,7 +225,7 @@ footer a{margin-right:18px}
 
 <footer>
   <div class="wrap">
-    <strong style="font-size:1.2rem">catalyst_jpg</strong>
+    <a class="logo" href="#top" aria-label="Catalyst JPG home"><img class="brand-logo" src="images/logo%20png.png" alt="Catalyst JPG"></a>
     <div>
       <a href="https://www.instagram.com/catalyst_jpg" target="_blank" rel="noopener">Instagram</a>
       <a href="https://wa.me/2349019522326" target="_blank" rel="noopener">WhatsApp +234 901 952 2326</a>
@@ -223,17 +234,19 @@ footer a{margin-right:18px}
 </footer>
 
 <dialog id="lb">
-  <div class="ph g1" id="lbph"><svg style="width:30%"><use href="#cap"/></svg><i id="lbn">grad.jpg</i></div>
+  <div class="ph g1" id="lbph"><img id="lbi" src="images/grad_001.jpg" alt="Selected graduation photo"><i id="lbn">grad_001.jpg</i></div>
   <div class="row"><span>Sample photo. Real shots coming soon.</span><button id="lbx">Close</button></div>
 </dialog>
 
 <script>
 (function(){
-  var lb=document.getElementById('lb'),ph=document.getElementById('lbph'),n=document.getElementById('lbn');
+  var lb=document.getElementById('lb'),ph=document.getElementById('lbph'),n=document.getElementById('lbn'),img=document.getElementById('lbi');
   document.querySelectorAll('.gal button').forEach(function(b){
     b.addEventListener('click',function(){
       ph.className='ph '+b.querySelector('.ph').className.split(' ')[1];
       n.textContent=b.dataset.n;
+      img.src='images/'+b.dataset.n;
+      img.alt='Selected graduation photo '+b.dataset.n;
       if(lb.showModal)lb.showModal();
     });
   });
